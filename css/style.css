@@ -1,0 +1,72 @@
+body {
+    margin: auto;
+    padding: 10px;
+    max-width: 700px;
+    font-size: 1.3em;
+    font-family:"Times New Roman", Times, serif;
+    text-align: justify;
+}
+
+code {
+    background: #eee;
+}
+
+pre {
+    font-family: Monaco, Consolas, "Liberation Mono", Courier, monospace;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    overflow: scroll;
+    line-height: 1.2em;
+}
+
+pre code {
+    background: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 1em;
+        margin: 3px;
+        padding: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 3%;
+    font-size: 0.9em;
+    border-left: 1px solid #000;
+}
+
+header,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+.post-list li {
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.post-list span {
+    text-align: right;
+    float: right;
+}

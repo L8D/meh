@@ -1,0 +1,30 @@
+name: Meh
+title: Meh
+author: Tenor Biel
+description: A blog
+url: http://localhost:4000
+
+markdown: redcarpet
+pygments: false
+permalink: pretty
+timezone: America/Chicago
+
+exclude: [
+  Gemfile,
+  Gemfile.lock,
+  .gitignore,
+  README.md,
+  LICENSE.txt
+]
+
+redcarpet:
+  extensions: [
+    tables,
+    strikethrough,
+    underline,
+    highlight,
+    footnotes,
+    superscript,
+    autolink,
+    fenced_code_blocks
+  ]
